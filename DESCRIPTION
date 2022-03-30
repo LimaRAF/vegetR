@@ -1,6 +1,6 @@
 Package: vegetR
 Type: Package
-Title: The Title of the Project
+Title: Managing Data from Vegetation Inventories 
 Version: 0.0.0.9000
 Authors@R: c(
     person(given   = "Renato",
@@ -8,8 +8,11 @@ Authors@R: c(
            role    = c("aut", "cre", "cph"),
            email   = "raflima@usp.br",
            comment = c(ORCID = "0000-0002-1048-0138")))
-Description: A paragraph providing a full description of the project (on 
-    several lines...)
+Description: This package provides tools for reading, 
+    converting, processing, and saving data 
+    from quantitative vegetation inventories, such as
+    inventory methods, site descriptions, species records,
+    measurements and lists.
 URL: https://github.com/LimaRAF/vegetR
 BugReports: https://github.com/LimaRAF/vegetR/issues
 License: GPL (>= 2)

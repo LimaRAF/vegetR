@@ -13,10 +13,6 @@ knitr::opts_chunk$set(collapse  = TRUE,
 ```
 
 
-
-vegetR <img src="man/figures/package-sticker.png" align="right" style="float:right; height:120px;"/>
-=========================================================
-
 <!-- badges: start -->
 [![R CMD Check](https://github.com/LimaRAF/vegetR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/LimaRAF/vegetR/actions/workflows/R-CMD-check.yaml)
 [![Website](https://github.com/LimaRAF/vegetR/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/LimaRAF/vegetR/actions/workflows/pkgdown.yaml)
@@ -29,12 +25,20 @@ vegetR <img src="man/figures/package-sticker.png" align="right" style="float:rig
 [![Dependencies](https://img.shields.io/badge/dependencies-0/0-brightgreen?style=flat)](#)
 <!-- badges: end -->
 
+<img src="man/figures/package-sticker.png" align="right" style="float:right; height:120px;"/>
 
-The goal of the R package `vegetR` is to **{{ PLEASE ADD A FEW LINES }}**
+vegetR 
+=========================================================
+An R Package for Managing Data from Vegetation Inventories
+
+### Description
+
+The goal of the R package `vegetR` is to help loading and merging data set from
+quantitative vegetation inventories, such as forest plots. It provides field 
+equivalencies for exchangin data using adpated VegX standards.
 
 
-
-## Installation
+#### Installation
 
 You can install the development version from [GitHub](https://github.com/) with:
 
@@ -49,24 +53,37 @@ Then you can attach the package `vegetR`:
 library("vegetR")
 ```
 
+##### Bug report and suggestions
+
+The vegetR project is hosted on [GitHub](https://github.com/LimaRAF/vegetR/).
+Please report any bugs and suggestions of improvements for the package
+[here](https://github.com/LimaRAF/vegetR/issues).
 
 
-## Overview
+### Authors and contributors
 
-Here is an overview of `vegetR` content: **{{ PLEASE ADD A FEW LINES }}**
+Renato A. F. de Lima
 
-
-
-## Citation
+### Citation
 
 Please cite this package as: 
 
-> Lima Renato (`r format(Sys.Date(), "%Y")`) vegetR: An R 
-package to **{{ TITLE }}**. R package version 0.0.0.9000.
+> Lima, R.A.F. (`r format(Sys.Date(), "%Y")`) vegetR: An R 
+package for managing data from vegetation inventories. 
+R package version 0.0.0.9000.
+
+### Funding
+
+The development of this package was supported by the French Foundation for 
+Biodiversity Research (FRB).
+
+### Acknowledgements
+
+We thank Nicolas Cajasus (CESAB/FRB) for his help with the packaage documentation
+via the R package `rcompendium`.
 
 
-
-## Code of Conduct
+### Code of Conduct
 
 Please note that the `vegetR` project is released with a 
 [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). 
