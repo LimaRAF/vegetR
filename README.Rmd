@@ -37,7 +37,6 @@ The goal of the R package `vegetR` is to help loading and merging data set from
 quantitative vegetation inventories, such as forest plots. It provides field 
 equivalencies for exchangin data using adpated VegX standards.
 
-
 #### Installation
 
 You can install the development version from [GitHub](https://github.com/) with:
@@ -81,7 +80,6 @@ Biodiversity Research (FRB).
 
 We thank Nicolas Cajasus (CESAB/FRB) for his help with the packaage documentation
 via the R package `rcompendium`.
-
 
 ### Code of Conduct
 
