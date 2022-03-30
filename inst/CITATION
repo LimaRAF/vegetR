@@ -2,8 +2,8 @@ citHeader("To cite vegetR in publications use:")
 
 bibentry(
   bibtype = "Manual",
-  title   = "vegetR: {An} {R} package to ...",
-  author  = c(person("Lima Renato")),
+  title   = "vegetR: {An} {R} package for managing data from vegetation inventories",
+  author  = c(person("Lima, R.A.F.")),
   year    = "2022",
   note    = "R package version 0.0.0.9000",
   url     = "https://github.com/LimaRAF/vegetR"

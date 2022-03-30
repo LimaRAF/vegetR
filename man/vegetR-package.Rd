@@ -4,9 +4,9 @@
 \name{vegetR-package}
 \alias{vegetR}
 \alias{vegetR-package}
-\title{vegetR: The Title of the Project}
+\title{vegetR: Managing Data from Vegetation Inventories}
 \description{
-A paragraph providing a full description of the project (on several lines...)
+This package provides tools for reading, converting, processing, and saving data from quantitative vegetation inventories, such as inventory methods, site descriptions, species records, measurements and lists.
 }
 \seealso{
 Useful links:

@@ -20,8 +20,12 @@ Concept](https://www.repostatus.org/badges/latest/concept.svg)](https://www.repo
 [![Dependencies](https://img.shields.io/badge/dependencies-0/0-brightgreen?style=flat)](#)
 <!-- badges: end -->
 
-The goal of the R package `vegetR` is to **{{ PLEASE ADD A FEW LINES
-}}**
+## Description
+
+The goal of the R package `vegetR` is to help loading and merging data
+set from quantitative vegetation inventories, such as forest plots. It
+provides field equivalencies for exchangin data using adpated VegX
+standards.
 
 ## Installation
 
@@ -35,19 +39,14 @@ Then you can attach the package `vegetR`:
 
     library("vegetR")
 
-## Overview
-
-Here is an overview of `vegetR` content: **{{ PLEASE ADD A FEW LINES
-}}**
-
 ## Citation
 
 Please cite this package as:
 
-> Lima Renato (2022) vegetR: An R package to **{{ TITLE }}**. R package
-> version 0.0.0.9000.
+> Lima, R.A.F. (2022) vegetR: An R package for managing data from
+> vegetation inventories. R package version 0.0.0.9000.
 
-## Code of Conduct
+### Code of Conduct
 
 Please note that the `vegetR` project is released with a [Contributor
 Code of
