@@ -5,18 +5,15 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Managing Data from Vegetation Inventories  • vegetR</title>
+<title>The Title of the Project • vegetR</title>
 <!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script><!-- Bootstrap --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha256-bZLfwXAP04zRMK2BjiO8iu9pf4FbLqX6zitd+tIvLhE=" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha256-nuL8/2cJ5NDSSwnKD8VqreErSWHtnEP9E7AySL+1ev4=" crossorigin="anonymous"></script><!-- bootstrap-toc --><link rel="stylesheet" href="bootstrap-toc.css">
 <script src="bootstrap-toc.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
-<script src="pkgdown.js"></script><meta property="og:title" content="Managing Data from Vegetation Inventories ">
-<meta property="og:description" content="This package provides tools for reading, 
-    converting, processing, and saving data 
-    from quantitative vegetation inventories, such as
-    inventory methods, site descriptions, species records,
-    measurements and lists.">
+<script src="pkgdown.js"></script><meta property="og:title" content="The Title of the Project">
+<meta property="og:description" content="A paragraph providing a full description of the project (on 
+    several lines...)">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -69,64 +66,40 @@
 
       </header><div class="row">
   <div class="contents col-md-9">
-
-
-<p><img src="reference/figures/package-sticker.png" align="right" style="float:right; height:120px;"></p>
 <div class="section level1">
-<div class="page-header"><h1 id="vegetr">vegetR<a class="anchor" aria-label="anchor" href="#vegetr"></a>
+<div class="page-header"><h1 id="vegetr-">vegetR <img src="reference/figures/package-sticker.png" align="right" style="float:right; height:120px;"><a class="anchor" aria-label="anchor" href="#vegetr-"></a>
 </h1></div>
-<p>An R Package for Managing Data from Vegetation Inventories</p>
-<div class="section level3">
-<h3 id="description">Description<a class="anchor" aria-label="anchor" href="#description"></a>
-</h3>
-<p>The goal of the R package <code>vegetR</code> is to help loading and merging data set from quantitative vegetation inventories, such as forest plots. It provides field equivalencies for exchangin data using adpated VegX standards.</p>
-<div class="section level4">
-<h4 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
-</h4>
+<!-- badges: start -->
+
+<p>The goal of the R package <code>vegetR</code> is to <strong>{{ PLEASE ADD A FEW LINES }}</strong></p>
+<div class="section level2">
+<h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
+</h2>
 <p>You can install the development version from <a href="https://github.com/" class="external-link">GitHub</a> with:</p>
-<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="co"># install.packages("remotes")</span>
-<span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"LimaRAF/vegetR"</span><span class="op">)</span></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># install.packages("remotes")</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a>remotes<span class="op">::</span><span class="kw">install_github</span>(<span class="st">"LimaRAF/vegetR"</span>)</span></code></pre></div>
 <p>Then you can attach the package <code>vegetR</code>:</p>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="st"><a href="https://github.com/LimaRAF/vegetR" class="external-link">"vegetR"</a></span><span class="op">)</span></code></pre></div>
-<div class="section level5">
-<h5 id="bug-report-and-suggestions">Bug report and suggestions<a class="anchor" aria-label="anchor" href="#bug-report-and-suggestions"></a>
-</h5>
-<p>The vegetR project is hosted on <a href="https://github.com/LimaRAF/vegetR/" class="external-link">GitHub</a>. Please report any bugs and suggestions of improvements for the package <a href="https://github.com/LimaRAF/vegetR/issues" class="external-link">here</a>.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="kw">library</span>(<span class="st">"vegetR"</span>)</span></code></pre></div>
 </div>
+<div class="section level2">
+<h2 id="overview">Overview<a class="anchor" aria-label="anchor" href="#overview"></a>
+</h2>
+<p>Here is an overview of <code>vegetR</code> content: <strong>{{ PLEASE ADD A FEW LINES }}</strong></p>
 </div>
-</div>
-<div class="section level3">
-<h3 id="authors-and-contributors">Authors and contributors<a class="anchor" aria-label="anchor" href="#authors-and-contributors"></a>
-</h3>
-<p>Renato A. F. de Lima</p>
-</div>
-<div class="section level3">
-<h3 id="citation">Citation<a class="anchor" aria-label="anchor" href="#citation"></a>
-</h3>
+<div class="section level2">
+<h2 id="citation">Citation<a class="anchor" aria-label="anchor" href="#citation"></a>
+</h2>
 <p>Please cite this package as:</p>
 <blockquote>
-<p>Lima, R.A.F. (2022) vegetR: An R package for managing data from vegetation inventories. R package version 0.0.0.9000.</p>
+<p>Lima Renato (2022) vegetR: An R package to <strong>{{ TITLE }}</strong>. R package version 0.0.0.9000.</p>
 </blockquote>
 </div>
-<div class="section level3">
-<h3 id="funding">Funding<a class="anchor" aria-label="anchor" href="#funding"></a>
-</h3>
-<p>The development of this package was supported by the French Foundation for Biodiversity Research (FRB).</p>
-</div>
-<div class="section level3">
-<h3 id="acknowledgements">Acknowledgements<a class="anchor" aria-label="anchor" href="#acknowledgements"></a>
-</h3>
-<p>We thank Nicolas Cajasus (CESAB/FRB) for his help with the packaage documentation via the R package <code>rcompendium</code>.</p>
-</div>
-<div class="section level3">
-<h3 id="code-of-conduct">Code of Conduct<a class="anchor" aria-label="anchor" href="#code-of-conduct"></a>
-</h3>
+<div class="section level2">
+<h2 id="code-of-conduct">Code of Conduct<a class="anchor" aria-label="anchor" href="#code-of-conduct"></a>
+</h2>
 <p>Please note that the <code>vegetR</code> project is released with a <a href="https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html" class="external-link">Contributor Code of Conduct</a>. By contributing to this project, you agree to abide by its terms.</p>
 </div>
 </div>
-
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
